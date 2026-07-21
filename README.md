@@ -99,10 +99,10 @@ Before beginning the configuration, ensure the following software is installed a
 
 1. Go to **Server Manager > Local Server**. Under "Properties for DC," find **IE Enhanced Security Configuration** and turn it **Off** for both Administrators and Users.
 2. At the top of your VM window, click **Devices > Shared Clipboard > Bidirectional**.
-3. Open Internet Explorer and paste the following URL into the address bar: [<https://github.com/stackingboxes/AD_PS/archive/refs/heads/main.zip\>]
+3. Open Internet Explorer and paste the following URL into the address bar: [https://github.com/stackingboxes/Active-Directory-Homelab/raw/refs/heads/main/AD_PS.zip]
 4. Click **Save > Open folder**. Right-click the downloaded zip file and select **Extract All**.
 5. Change the extraction destination to your Desktop (e.g., C:\\Users\\Administrator\\Desktop).
-6. On your desktop, open the extracted AD_PS-main folder. Open the names file, add your first and last name to the very top, and press Ctrl + S to save.
+6. On your desktop, open the extracted AD_PS folder. Open the names file, add your first and last name to the very top, and press Ctrl + S to save.
 7. Right-click the 1_CREATE_USERS script, select **Run with PowerShell**, click **Open**, and type Y to confirm.
 8. Open **Active Directory Users and Computers** and check the \_USERS OU. You should now see 1,000+ users, including your own account.
 
