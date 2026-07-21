@@ -7,9 +7,9 @@ Active Directory homelab built with Windows Server 2019 and VirtualBox. Demonstr
 
 Before beginning the configuration, ensure the following software is installed and available:
 
-  &nbsp&nbsp&nbsp&nbsp - **Windows Server 2019 (WS19)** ISO
-  &nbsp&nbsp&nbsp&nbsp - **Windows 10** ISO
-  &nbsp&nbsp&nbsp&nbsp - **Oracle VirtualBox**
+  - **Windows Server 2019 (WS19)** ISO
+  - **Windows 10** ISO
+  - **Oracle VirtualBox**
 
 ## **II. Setting Up The Domain Controller (DC)**
 
@@ -99,7 +99,7 @@ Before beginning the configuration, ensure the following software is installed a
 
 1. Go to **Server Manager > Local Server**. Under "Properties for DC," find **IE Enhanced Security Configuration** and turn it **Off** for both Administrators and Users.
 2. At the top of your VM window, click **Devices > Shared Clipboard > Bidirectional**.
-3. Open Internet Explorer and paste the following URL into the address bar: \[<https://github.com/stackingboxes/AD_PS/archive/refs/heads/main.zip\>]
+3. Open Internet Explorer and paste the following URL into the address bar: [<https://github.com/stackingboxes/AD_PS/archive/refs/heads/main.zip\>]
 4. Click **Save > Open folder**. Right-click the downloaded zip file and select **Extract All**.
 5. Change the extraction destination to your Desktop (e.g., C:\\Users\\Administrator\\Desktop).
 6. On your desktop, open the extracted AD_PS-main folder. Open the names file, add your first and last name to the very top, and press Ctrl + S to save.
