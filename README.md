@@ -7,9 +7,9 @@ Active Directory homelab built with Windows Server 2019 and VirtualBox. Demonstr
 
 Before beginning the configuration, ensure the following software is installed and available:
 
-  &nbsp&nbsp&nbsp&nbsp- **Windows Server 2019 (WS19)** ISO
-  &nbsp&nbsp&nbsp&nbsp- **Windows 10** ISO
-  &nbsp&nbsp&nbsp&nbsp- **Oracle VirtualBox**
+  &nbsp&nbsp&nbsp&nbsp - **Windows Server 2019 (WS19)** ISO
+  &nbsp&nbsp&nbsp&nbsp - **Windows 10** ISO
+  &nbsp&nbsp&nbsp&nbsp - **Oracle VirtualBox**
 
 ## **II. Setting Up The Domain Controller (DC)**
 
