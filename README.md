@@ -15,9 +15,9 @@ Before beginning the configuration, ensure the following software is installed a
 
 ### **Task 1: VirtualBox Provisioning and Base OS Setup**
 
-- Open VirtualBox and click **New** to create a VM. Name it DC (Domain Controller).
-- Set the **ISO Image** to your downloaded WS19 ISO, uncheck **Proceed with Unattended Installation**, and click **Finish**.
-- Select the VM and go to **Settings > Expert > System** to customize your CPU and memory allocation to your preference.
+1. Open VirtualBox and click **New** to create a VM. Name it DC (Domain Controller).
+2. Set the **ISO Image** to your downloaded WS19 ISO, uncheck **Proceed with Unattended Installation**, and click **Finish**.
+3. Select the VM and go to **Settings > Expert > System** to customize your CPU and memory allocation to your preference.
 - Go to **General > Features** and set both **Shared Clipboard** and **Drag-and-Drop** to **Bidirectional**.
 - Go to **Network > Adapter 2** (ensure the VM is powered off). Check **Enable Network Adapter**, change **Attached to** to **Internal Network**, and click **OK**.
 - Start the VM. Set the OS to **Windows Server 2019 Standard Evaluation (Desktop Experience)** and select **Custom** when prompted for the installation type.
